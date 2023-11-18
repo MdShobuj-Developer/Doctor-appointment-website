@@ -1,0 +1,156 @@
+@media only screen and (max-width: 850px) {
+  .nav-bar-icon {
+    display: block;
+  }
+  .nav-items {
+    /* display: none; */
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 50%;
+    max-height: 0px;
+    background-color: #fff;
+    overflow: hidden;
+    border-top: 1px solid rgba(0, 126, 133, 1);
+    transition: max-height 0.5s;
+  }
+  .nav-items.toggleMenuNav {
+    max-height: 500px;
+  }
+  .nav-list {
+    display: block;
+  }
+  .nav-list:hover {
+    background-color: #dedede;
+  }
+  .nav-list-hidden {
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .nav-list-hidden a {
+    color: #fff;
+    background-color: rgba(0, 126, 133, 1);
+    padding: 10px 20px;
+  }
+  .sign-in-up {
+    display: none;
+  }
+  .footer-container {
+    flex-direction: column;
+    padding: 50px 10px 20px 10px;
+  }
+  .footer-items {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .copy-right-section {
+    order: 2;
+    margin-top: 20px;
+  }
+  .copy-right-section a {
+    display: none;
+  }
+  .copy-right-section p {
+    font-size: 14px;
+    color: #dedede;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .find-doctor-form {
+    flex-direction: column;
+    gap: 25px 0;
+  }
+  .find-doctor-form-right {
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .services-items,
+  .tem-member-items,
+  .testimonial-items {
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .result-show-list h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .result-show-list p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .why-choose img {
+    display: none;
+  }
+  .why-choose-details {
+    width: 100%;
+    text-align: center;
+  }
+  .social-logo-container h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .nav-list-hidden {
+    padding: 0;
+  }
+  .nav-list-hidden a {
+    display: block;
+    padding: 10px 0;
+    margin-bottom: 1px;
+  }
+  .services-items,
+  .tem-member-items,
+  .testimonial-items {
+    grid-template-columns: auto;
+  }
+  .news-letter-btn {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .footer-items {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    gap: 20px 0;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .hero-btn-list {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .find-doctor-form-left {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+  .find-doctor-form-right {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tem-member-head h2 {
+    text-align: center;
+  }
+  .news-letter-input {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  header {
+    height: 90vh;
+  }
+  .why-choose-details a {
+    display: block;
+  }
+  .choose-btn {
+    margin-top: 10px;
+  }
+  .services-head h2 {
+    text-align: center;
+  }
+}
