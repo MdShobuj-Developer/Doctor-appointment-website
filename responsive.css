@@ -57,6 +57,9 @@
   }
 }
 @media only screen and (max-width: 800px) {
+  header {
+    height: 80vh;
+  }
   .find-doctor-form {
     flex-direction: column;
     gap: 25px 0;
@@ -67,10 +70,17 @@
   }
 }
 @media only screen and (max-width: 650px) {
+  header {
+    height: 70vh;
+  }
   .services-items,
   .tem-member-items,
   .testimonial-items {
     grid-template-columns: auto auto;
+  }
+  .contact-message textarea {
+    width: 500px;
+    height: 100px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -94,8 +104,15 @@
   .social-logo-container h2 {
     font-size: 20px;
   }
+  .contact-message textarea {
+    width: 400px;
+    height: 90px;
+  }
 }
 @media only screen and (max-width: 450px) {
+  header {
+    height: 65vh;
+  }
   .nav-list-hidden {
     padding: 0;
   }
@@ -112,6 +129,22 @@
   .news-letter-btn {
     margin-top: 10px;
   }
+  .contact-form {
+    grid-template-columns: auto;
+  }
+  .contact-message textarea {
+    width: 300px;
+    height: 80px;
+  }
+  .contact-selection-box {
+    grid-column: 1/2;
+  }
+  .contact-message {
+    grid-column: 1/2;
+  }
+  .contact-btn {
+    grid-column: 1/2;
+  }
 }
 @media only screen and (max-width: 400px) {
   .footer-items {
@@ -121,6 +154,9 @@
   }
 }
 @media only screen and (max-width: 350px) {
+  header {
+    height: 60vh;
+  }
   .hero-btn-list {
     flex-direction: column;
     gap: 10px 0;
@@ -139,10 +175,14 @@
   .news-letter-input {
     width: 80%;
   }
+  .contact-message textarea {
+    width: 250px;
+    height: 70px;
+  }
 }
 @media only screen and (max-width: 300px) {
   header {
-    height: 90vh;
+    height: 55vh;
   }
   .why-choose-details a {
     display: block;
@@ -152,5 +192,9 @@
   }
   .services-head h2 {
     text-align: center;
+  }
+  .contact-message textarea {
+    width: 200px;
+    height: 70px;
   }
 }

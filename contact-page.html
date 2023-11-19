@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Appointment Contact Us</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- ==========================  -->
+    <!-- header section starts -->
+    <!-- ==========================  -->
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">Health<span>care</span></a>
+        <ul class="nav-items" id="subMenu">
+          <li class="nav-list">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-list"><a href="#" class="nav-link">Service</a></li>
+          <li class="nav-list">
+            <a href="contact-page.html" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-list"><a href="#" class="nav-link">Help</a></li>
+          <li class="nav-list"><a href="#" class="nav-link">Blogs</a></li>
+          <li class="nav-list-hidden">
+            <a href="#">Log In</a>
+            <a href="#">Sign Up</a>
+          </li>
+        </ul>
+        <div class="sign-in-up">
+          <a href="#" class="sign-up">Sign Up</a>
+          <a href="#" class="log-in btn">Log In</a>
+        </div>
+        <i class="fa-solid fa-bars nav-bar-icon" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+    <!-- <header>
+      <div class="hero-section"></div>
+    </header> -->
+    <!-- ==========================  -->
+    <!-- header section ends -->
+    <!-- ==========================  -->
+    <!-- ==========================  -->
+    <!-- contact section starts -->
+    <!-- ==========================  -->
+    <div class="contact-main">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <form action="" class="contact-form">
+        <label for="fName" class="contact-fname"
+          >First Name<input
+            type="text"
+            name="fName"
+            id="fName"
+            placeholder="Enter your first name"
+        /></label>
+
+        <label for="lName" class="contact-lname"
+          >Last Name<input
+            type="text"
+            name="lName"
+            id="lName"
+            placeholder="Enter your last name"
+        /></label>
+
+        <label for="email" class="contact-mail"
+          >Email
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+        /></label>
+
+        <label for="number" class="contact-number"
+          >Phone Number<input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Enter your phone number"
+        /></label>
+        <label for="chooseTopic" class="contact-selection-box"
+          >Choose a topic<select name="slection" id="selection">
+            <option value="Appointment">For Appointment</option>
+            <option value="Services">About Services</option>
+            <option value="Doctors">About our Doctors</option>
+          </select></label
+        >
+
+        <label for="message" class="contact-message"
+          >Message
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Type your message..."
+          ></textarea>
+        </label>
+        <div class="contact-check-box-container">
+          <input type="checkbox" name="check" id="check" />
+          <label for="check" class="contact-check-box">
+            I accept the terms</label
+          >
+        </div>
+
+        <input type="submit" value="Submit" class="contact-btn" />
+      </form>
+    </div>
+    <!-- ==========================  -->
+    <!-- contact section ends -->
+    <!-- ==========================  -->
+    <!-- news letter section starts -->
+    <div class="news-letter-container">
+      <h3>Subscribe to our newsletter</h3>
+      <input
+        type="email"
+        name="mail"
+        id="mail"
+        placeholder="Enter your email"
+        class="news-letter-input"
+      />
+      <input type="button" value="Subscribe" class="news-letter-btn" />
+    </div>
+    <!-- news letter section ends -->
+    <!-- footer section starts -->
+    <div class="footer-container">
+      <div class="copy-right-section">
+        <a href="#" class="footer-logo">Healthcare</a>
+        <p>Copyright © 2023 SKBT Templates | All Rights Reserved</p>
+      </div>
+      <div class="footer-items">
+        <div class="footer-product">
+          <h4>Product</h4>
+          <div class="footer-flex">
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Case studies</a>
+            <a href="#">Reviews</a>
+            <a href="#">Updates</a>
+          </div>
+        </div>
+        <div class="footer-company">
+          <h4>Company</h4>
+          <div class="footer-flex">
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+            <a href="#">Careers</a>
+            <a href="#">Culture</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <div class="footer-support">
+          <h4>Support</h4>
+          <div class="footer-flex">
+            <a href="#">Getting started</a>
+            <a href="#">Help center</a>
+            <a href="#">Server status</a>
+            <a href="#">Report a bug</a>
+            <a href="#">Chat support</a>
+          </div>
+        </div>
+        <div class="footer-follow-us">
+          <h4>Follow Us</h4>
+          <div class="footer-flex">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i>FaceBook</a>
+            <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+            <a href="#"><i class="fa-brands fa-youtube"></i>YouTube</a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section ends -->
+
+    <script>
+      let subMenu = document.getElementById("subMenu");
+      function toggleMenu() {
+        subMenu.classList.toggle("toggleMenuNav");
+      }
+    </script>
+  </body>
+</html>
